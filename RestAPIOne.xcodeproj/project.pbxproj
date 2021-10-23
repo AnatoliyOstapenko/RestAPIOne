@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA969ED127246C36005C97C3 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA969ECF27246C36005C97C3 /* MoviesTableViewCell.swift */; };
+		FA969ED227246C36005C97C3 /* MoviesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA969ED027246C36005C97C3 /* MoviesTableViewCell.xib */; };
 		FAD664CC272332AE003B6751 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD664CB272332AE003B6751 /* AppDelegate.swift */; };
 		FAD664CE272332AE003B6751 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD664CD272332AE003B6751 /* SceneDelegate.swift */; };
 		FAD664D0272332AE003B6751 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD664CF272332AE003B6751 /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA969ECF27246C36005C97C3 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
+		FA969ED027246C36005C97C3 /* MoviesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesTableViewCell.xib; sourceTree = "<group>"; };
 		FAD664C8272332AE003B6751 /* RestAPIOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestAPIOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD664CB272332AE003B6751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD664CD272332AE003B6751 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				FAD664D4272332B2003B6751 /* Assets.xcassets */,
 				FAD664D6272332B2003B6751 /* LaunchScreen.storyboard */,
 				FAD664D9272332B2003B6751 /* Info.plist */,
+				FA969ECF27246C36005C97C3 /* MoviesTableViewCell.swift */,
+				FA969ED027246C36005C97C3 /* MoviesTableViewCell.xib */,
 			);
 			path = RestAPIOne;
 			sourceTree = "<group>";
@@ -135,6 +141,7 @@
 			files = (
 				FAD664D8272332B2003B6751 /* LaunchScreen.storyboard in Resources */,
 				FAD664D5272332B2003B6751 /* Assets.xcassets in Resources */,
+				FA969ED227246C36005C97C3 /* MoviesTableViewCell.xib in Resources */,
 				FAD664D3272332AE003B6751 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +158,7 @@
 				FAD664CC272332AE003B6751 /* AppDelegate.swift in Sources */,
 				FAD664CE272332AE003B6751 /* SceneDelegate.swift in Sources */,
 				FAD664E1272333B6003B6751 /* Model.swift in Sources */,
+				FA969ED127246C36005C97C3 /* MoviesTableViewCell.swift in Sources */,
 				FAD664E827235828003B6751 /* MovieViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K33FXWL25N;
 				INFOPLIST_FILE = RestAPIOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K33FXWL25N;
 				INFOPLIST_FILE = RestAPIOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
