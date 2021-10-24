@@ -31,6 +31,7 @@ class ApiService {
                 
                 DispatchQueue.main.async {
                     completion(.success(jsonData))
+                    print(jsonData)
                 }
                 
                 

@@ -22,10 +22,10 @@ struct Movie: Codable {
     let rate: Double?
     let year: String?
     let posterImage: String?
-    let overView: String?
+    let overview: String?
     
     enum CodingKeys: String, CodingKey {
-        case title, overView
+        case title, overview
         case rate = "vote_average"
         case year = "release_date"
         case posterImage = "poster_path"
