@@ -26,12 +26,14 @@ class MovieViewModel {
         }
     }
     
-    func numberOfRowsInSection(indexPath: IndexPath) -> Int {
-        return popularMovies.count
+    func numberOfRowsInSection(section: Int) -> Int {
+        if popularMovies.count != 0 {
+            return popularMovies.count
+        }
+        return 0
     }
     
     func cellForRowAt(indexPath: IndexPath) -> Movie {
-        
         return popularMovies[indexPath.row]
     }
     
