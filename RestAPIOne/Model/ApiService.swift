@@ -7,13 +7,13 @@
 
 import Foundation
 
-class ApiService {
+struct ApiService {
     
     
     private var dataTask: URLSessionDataTask?
     
     
-    func getPopularMoviesData(completion: @escaping (Result<MoviesData, Error>) -> Void) {
+    mutating func getPopularMoviesData(completion: @escaping (Result<MoviesData, Error>) -> Void) {
         
         let popularMoviesURL = "https://api.themoviedb.org/3/movie/popular?api_key=ec525aa05dd1cada9b2013d7edff1363"
         guard let url = URL(string: popularMoviesURL) else { return }
