@@ -19,7 +19,10 @@ class MoviesTableViewCell: UITableViewCell {
     
     // Set up movies values (next step after Update UI, Get Image, Convert methodes created)
     func setCellWithValuesOf(_ movie: Movie) {
+        
         updateUI(title: movie.title, releaseDate: movie.year, rating: movie.rate, overview: movie.overview, poster: movie.posterImage)
+        
+        
         
     }
     
